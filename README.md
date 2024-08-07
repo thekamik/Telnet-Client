@@ -1,13 +1,13 @@
 # Windows-Telnet-Client
 
-This project was created to demonstrate basic Windows socket client functionality. It provides a simple, non-secure Telnet client implemented in C++.
+This project was created to demonstrate basic Windows socket client functionality. It provides a simple, non-secure Telnet client implemented in C.
 
 ## Compilation
 
 Compile the project using the following command with MinGW64:
 
 ```sh
-g++ -std=c++2b -o telnet.exe main.cpp -lws2_32
+gcc -std=c99 -o telnet.exe main.c -lws2_32
 ```
 
 ## Usage
